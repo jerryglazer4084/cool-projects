@@ -1,0 +1,129 @@
+body {
+    background-color: #000000;
+    color: #FFD700; /* Imperial Gold */
+    min-height: 100vh;
+    background-image: 
+        linear-gradient(135deg, 
+            rgba(139, 0, 0, 0.2), /* Dark Red overlay */
+            rgba(0, 0, 0, 0.7)
+        ),
+        url('path/to/your/mosaic-image.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    background-repeat: no-repeat;
+    font-family: 'Garamond', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', serif;
+    color: #FFD700; /* Imperial Gold */
+    text-shadow: 
+        0 0 15px #8B0000, /* Dark Red glow */
+        0 0 25px #FFD700; /* Gold glow */
+    text-align: center;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #F5DEB3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    margin: 20px 0;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8B0000;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+.main-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 2px solid #8B0000; /* Dark Red border */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    box-shadow: 0 0 20px #FFD700; /* Golden glow */
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-family: 'Garamond', serif;
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+.main-nav ul li a:hover {
+    color: #8B0000;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', serif; /* Church engraving style */
+    color: #8B0000; /* Dark Red */
+    text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700; /* Warm glow */
+    font-size: 67px; /* Set font size */
+}
+
+p {
+    color: #F5DEB3; /* Candlelight color */
+    font-family: 'Times New Roman', Times, serif; /* Set font family */
+    font-size: 30px; /* Set font size */
+}
+    /* Remove the sacraments navigation */
+
+    .sacraments-nav {
+        background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+        position: fixed; /* Fixed position */
+        bottom: 0; /* Align to the bottom */
+        width: 100%; /* Full width */
+        padding: 10px 0; /* Padding for spacing */
+        z-index: 1000; /* Ensure it stays above other content */
+    }
+
+    nav ul {
+        list-style-type: none; /* Remove bullet points */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Flexbox for horizontal layout */
+        justify-content: center; /* Center the items */
+    }
+
+    nav ul li {
+        margin: 0 15px; /* Spacing between items */
+    }
+
+    nav ul li a {
+        color: #FFD700; /* Gold color for links */
+        text-decoration: none; /* Remove underline */
+        font-size: 20px; /* Font size for links */
+        transition: color 0.3s; /* Smooth color transition */
+    }
+
+    nav ul li a:hover {
+        color: #8B0000; /* Dark Red on hover */
+    }
